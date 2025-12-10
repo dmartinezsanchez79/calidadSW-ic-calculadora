@@ -5,8 +5,15 @@ package com.ucam;
  */
 public class Calculadora {
 
+    /**
+     * Suma dos números enteros.
+     *
+     * @param a primer sumando
+     * @param b segundo sumando
+     * @return resultado de a + b
+     */
     
-    public int sumar(int a, int b) {
+    public int sumar(final int a, final int b) {
         return a + b;
     }
 
