@@ -14,7 +14,7 @@ public class Calculadora {
      */
     
     public int sumar(final int a, final int b) {
-        return a + b;
+        return a + b
     }
 
     /**
