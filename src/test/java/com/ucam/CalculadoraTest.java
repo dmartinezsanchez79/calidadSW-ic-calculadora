@@ -15,6 +15,6 @@ public class CalculadoraTest {
     @Test
     void testRestar() {
         Calculadora calc = new Calculadora();
-        assertEquals(3, calc.restar(3, 2));
+        assertEquals(1, calc.restar(3, 2));
     }
 }
